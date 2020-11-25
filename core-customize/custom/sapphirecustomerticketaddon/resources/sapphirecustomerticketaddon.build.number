@@ -1,0 +1,11 @@
+#Ant properties
+#Tue Aug 15 14:58:05 UTC 2017
+builddate=20170815 1458
+description=sapphirecustomerticketaddon
+group.id=de.hybris.platform
+module.name=platform-module
+name=sapphirecustomerticketaddon
+releasedate=20170801 1046
+vendor=hybris
+version=6.5.0.0
+version.api=6.5.0

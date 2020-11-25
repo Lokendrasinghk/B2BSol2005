@@ -1,0 +1,11 @@
+#Ant properties
+#Thu Apr 20 02:51:30 UTC 2017
+builddate=20170420 0251
+description=sapphiresaporderfulfillment
+group.id=de.hybris.platform
+module.name=platform-module
+name=sapphiresaporderfulfillment
+releasedate=20170419 1213
+vendor=hybris
+version=6.3.0.0-SNAPSHOT
+version.api=6.3.0
