@@ -72,7 +72,7 @@
 --><project name="yb2bacceleratorstorefront_buildcallbacks">
 	<property location="${ext.yb2bacceleratorstorefront.path}/web/webroot/WEB-INF/lib/less-rhino-1.7.3.js" name="tool.less"/>
 	<property location="${ext.yb2bacceleratorstorefront.path}/web/webroot/WEB-INF/lib/lessc-rhino-1.7.3.js" name="tool.lessc"/>
-	<property location="${platformhome}/resources/ant/lib/rhino-1.7.7.jar" name="tool.rhino"/>
+	<property location="${ext.yb2bacceleratorstorefront.path}/lib/rhino-1.7.7.jar" name="tool.rhino"/>
 	<property location="${ext.yb2bacceleratorstorefront.path}" name="ext.yb2bacceleratorstorefront.mapperToPath"/>
 	<property name="wro.addons.template.path" value="${ext.yb2bacceleratorstorefront.path}/wro_addons_template.xml"/>
 	<property name="wro.addons.dest.path" value="${ext.yb2bacceleratorstorefront.path}/resources/wro_addons.xml"/>
