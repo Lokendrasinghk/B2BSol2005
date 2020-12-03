@@ -93,15 +93,15 @@
 	<extension name="consignmenttrackingbackoffice" />
 		
 	<!-- below settings are for book an appointment -->	
-	<extension dir='C:\Git_migration_b2b\B2BSol2005\core-customize\custom\sapphiredemocore' />
-	<extension dir='C:\Git_migration_b2b\B2BSol2005\core-customize\custom\sapphirefacade' />
-	<extension dir='C:\Git_migration_b2b\B2BSol2005\core-customize\custom\sapphiresaporderfulfillment' />
-	<extension dir='C:\Git_migration_b2b\B2BSol2005\core-customize\custom\sapphirecustomerticketaddon' />                     	
-	<extension dir='C:\Git_migration_b2b\B2BSol2005\core-customize\custom\sapphiredemoaddon' />
-	<extension dir='C:\Git_migration_b2b\B2BSol2005\core-customize\custom\sapphireinitialdata' />
-	<extension dir='C:\Git_migration_b2b\B2BSol2005\core-customize\custom\demob2boccaddon' />
-	<extension dir='C:\Git_migration_b2b\B2BSol2005\core-customize\custom\democustomerticketingc4cb2bintegration' />
-	<extension dir='C:\Git_migration_b2b\B2BSol2005\core-customize\custom\yb2bacceleratorstorefront' />	
-	<extension dir='C:\Git_migration_b2b\B2BSol2005\core-customize\custom\mockcarrieraddon' />
+	<extension name='sapphiredemocore' />
+	<extension name='sapphirefacade' />
+	<extension name='sapphiresaporderfulfillment' />
+	<extension name='sapphirecustomerticketaddon' />                     	
+	<extension name='sapphiredemoaddon' />
+	<extension name='sapphireinitialdata' />
+	<extension name='demob2boccaddon' />
+	<extension name='democustomerticketingc4cb2bintegration' />
+	<extension name='yb2bacceleratorstorefront' />	
+	<extension name='mockcarrieraddon' />
   </extensions>
 </hybrisconfig>
