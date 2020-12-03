@@ -20,47 +20,47 @@
 	"storefrontAddons": [
         {
             "addon": "b2bacceleratoraddon",
-            "storefront": "mediakindstorefront",
+            "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "smarteditaddon",
-            "storefront": "mediakindstorefront",
+            "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
 		{
             "addon": "commerceorgaddon",
-            "storefront": "mediakindstorefront",
+            "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
 		{
             "addon": "assistedservicestorefront",
-            "storefront": "mediakindstorefront",
+            "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
 		{
             "addon": "commerceorgsamplesaddon",
-            "storefront": "mediakindstorefront",
+            "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
 	    {
             "addon": "promotionenginesamplesaddon",
-            "storefront": "mediakindstorefront",
+            "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
 		{
             "addon": "adaptivesearchsamplesaddon",
-            "storefront": "mediakindstorefront",
+            "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
 		{
 			"addon":"sapcoreaddon",
-			"storefront": "mediakindstorefront",
+			"storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
 		},
 		{
 			"addon":"acceleratorwebservicesaddon",
-			"storefront": "mediakindstorefront",
+			"storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
 		}
     ],
@@ -140,8 +140,8 @@
           "contextPath": "/personalizationwebservices"
         },
 		{
-          "name": "mediakindstorefront",
-          "contextPath": "/mediakindstorefront"
+          "name": "yb2bacceleratorstorefront",
+          "contextPath": "/yb2bacceleratorstorefront"
         },
 		{
 			"name": "ycommercewebservices",
@@ -163,7 +163,7 @@
       ],
       "webapps": [
 		{
-			"name": "mediakindstorefront",
+			"name": "yb2bacceleratorstorefront",
             "contextPath": ""
         },
         {
