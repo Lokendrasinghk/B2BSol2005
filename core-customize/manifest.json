@@ -1,0 +1,250 @@
+{
+    "commerceSuiteVersion": "1811.1",
+	"extensions":
+	[
+	
+	],
+	 "useConfig":{
+		"extensions": {
+            "location": "config/localextensions.xml"
+        },
+		"solr": {
+            "location": "config/solr"
+        },
+        "properties": [
+            {
+                "location": "config/local.properties"
+            }
+	]
+	},
+	"storefrontAddons": [
+        {
+            "addon": "b2bacceleratoraddon",
+            "storefront": "mediakindstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "mediakindstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		{
+            "addon": "commerceorgaddon",
+            "storefront": "mediakindstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		{
+            "addon": "assistedservicestorefront",
+            "storefront": "mediakindstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		{
+            "addon": "commerceorgsamplesaddon",
+            "storefront": "mediakindstorefront",
+            "template": "yacceleratorstorefront"
+        },
+	    {
+            "addon": "promotionenginesamplesaddon",
+            "storefront": "mediakindstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		{
+            "addon": "adaptivesearchsamplesaddon",
+            "storefront": "mediakindstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		{
+			"addon":"sapcoreaddon",
+			"storefront": "mediakindstorefront",
+            "template": "yacceleratorstorefront"
+		},
+		{
+			"addon":"acceleratorwebservicesaddon",
+			"storefront": "mediakindstorefront",
+            "template": "yacceleratorstorefront"
+		}
+    ],
+		"aspects": [
+    {
+      "name": "backoffice",
+      "properties": [
+	  
+      ],
+      "webapps": [
+        {
+          "name": "hac",
+          "contextPath": "/hac"
+        },
+        {
+          "name": "mediaweb",
+          "contextPath": "/medias"
+        },
+        {
+          "name": "backoffice",
+          "contextPath": "/backoffice"
+        },
+		{
+		"name": "smartedit",
+         "contextPath": "/smartedit"
+		},
+		{
+          "name": "cmssmartedit",
+          "contextPath": "/cmssmartedit"
+        },
+		{
+			"name": "smarteditwebservices",
+          "contextPath": "/smarteditwebservices"
+		},
+		{
+          "name":"odata2webservices",
+          "contextPath": "/odata2webservices"
+        },
+		{
+		   "name": "acceleratorservices",
+          "contextPath": "/acceleratorservices"
+		},
+		{
+			"name": "oauth2",
+			"contextPath": "/authorizationserver"
+		},
+		{
+          "name": "cmswebservices",
+          "contextPath": "/cmswebservices"
+        },
+		{
+          "name": "personalizationsmartedit",
+          "contextPath": "/personalizationsmartedit"
+        },
+		{
+          "name": "personalizationpromotionssmartedit",
+          "contextPath": "/personalizationpromotionssmartedit"
+        },
+		{
+          "name": "personalizationsearchsmartedit",
+          "contextPath": "/personalizationsearchsmartedit"
+        },
+		{
+          "name": "cmssmarteditwebservices",
+          "contextPath": "/cmssmarteditwebservices"
+        },
+		{
+          "name": "permissionswebservices",
+          "contextPath": "/permissionswebservices"
+        },
+		{
+          "name": "previewwebservices",
+          "contextPath": "/previewwebservices"
+        },
+		{
+          "name": "personalizationwebservices",
+          "contextPath": "/personalizationwebservices"
+        },
+		{
+          "name": "mediakindstorefront",
+          "contextPath": "/mediakindstorefront"
+        },
+		{
+			"name": "ycommercewebservices",
+			"contextPath": "/rest"
+		}
+      ]
+    },
+    {
+      "name": "accstorefront",
+      "properties": [
+        {
+          "key": "spring.session.enabled",
+          "value": "true"
+        },
+		{
+            "key":"storefrontContextRoot",
+            "value":""
+        }
+      ],
+      "webapps": [
+		{
+			"name": "mediakindstorefront",
+            "contextPath": ""
+        },
+        {
+          "name": "mediaweb",
+          "contextPath": "/medias"
+        },
+		{
+          "name": "hac",
+          "contextPath": "/hac"
+		},
+		{
+          "name": "acceleratorservices",
+          "contextPath": "/acceleratorservices"
+        },
+        {
+          "name": "oauth2",
+          "contextPath": "/authorizationserver"
+        },
+       {
+          "name": "smartedit",
+          "contextPath": "/smartedit"
+        },
+        {
+          "name": "cmssmartedit",
+          "contextPath": "/cmssmartedit"
+        },
+        {
+          "name": "cmssmarteditwebservices",
+          "contextPath": "/cmssmarteditwebservices"
+        },
+        {
+          "name": "smarteditwebservices",
+          "contextPath": "/smarteditwebservices"
+        },
+        {
+          "name": "cmscockpit",
+          "contextPath": "/cmscockpit"
+        },
+        {
+          "name": "cmswebservices",
+          "contextPath": "/cmswebservices"
+        },
+        {
+          "name": "cscockpit",
+          "contextPath": "/cscockpit"
+        },
+        {
+          "name": "maintenanceweb",
+          "contextPath": "/maintenance"
+        },
+        {
+          "name": "permissionswebservices",
+          "contextPath": "/permissionswebservices"
+        },
+        {
+          "name": "personalizationsmartedit",
+          "contextPath": "/personalizationsmartedit"
+        },
+        {
+          "name": "personalizationwebservices",
+          "contextPath": "/personalizationwebservices"
+        },
+        {
+          "name": "previewwebservices",
+          "contextPath": "/previewwebservices"
+        }
+      ]
+    },
+    {
+      "name": "backgroundProcessing",
+      "properties": [],
+      "webapps": [
+        {
+          "name": "hac",
+          "contextPath": ""
+        },
+        {
+          "name": "mediaweb",
+          "contextPath": "/medias"
+        }
+      ]
+    }
+  ]
+}
