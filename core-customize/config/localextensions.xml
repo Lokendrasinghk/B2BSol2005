@@ -64,10 +64,10 @@
     <extension name='sapordermgmtbol' />
     <extension name='ysapordermgmtb2baddon' />
     <extension name='sapordermgmtbackoffice' />
-    <extension name='b2bsapproductavailability' />
+    <!--16 Dec 2020<extension name='b2bsapproductavailability' />
     <extension name='sapproductavailabilitybackoffice' />
     <extension name='sapcreditcheck' />
-    <extension name='sapcreditcheckbackoffice' />
+    <extension name='sapcreditcheckbackoffice' />  -->
     <!-- <extension name='sapcoretest' /> --> 
 	
 	<!--  below are settings for OCC -->
