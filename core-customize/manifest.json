@@ -29,6 +29,52 @@
             "template": "yacceleratorstorefront"
         },
 		{
+            "addon": "orderselfserviceaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		
+		{
+            "addon": "textfieldconfiguratortemplateaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		
+		{
+            "addon": "ysapordermgmtb2baddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		{
+            "addon": "mockcarrieraddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		{
+            "addon": "consignmenttrackingaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		
+		{
+            "addon": "sapphiredemoaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		
+		{
+            "addon": "sapphirecustomerticketaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+
+{
+            "addon": "secureportaladdon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },			
+		
+		{
             "addon": "commerceorgaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
