@@ -80,8 +80,8 @@
 	<extension name='adaptivesearchsamplesaddon' />
 	<extension name='cmsoccaddon' />
 	<extension name='consignmenttrackingoccaddon' />
-	<extension name='customerinterestsoccaddon' />
-	<extension name='notificationoccaddon' />		
+	<!--<extension name='customerinterestsoccaddon' />
+	<extension name='notificationoccaddon' />	-->	
 	<!-- below settings are for C4C -->
 	
 	<extension name="c4ccustomer" />
