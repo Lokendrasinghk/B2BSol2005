@@ -91,6 +91,7 @@
 	<!-- below settings are for Order tracking -->
 	<extension name="consignmenttrackingaddon" />
 	<extension name="consignmenttrackingbackoffice" />
+	<extension name="powertoolsstore" />
 		
 	<!-- below settings are for book an appointment -->	
 	<extension name='sapphiredemocore' />
