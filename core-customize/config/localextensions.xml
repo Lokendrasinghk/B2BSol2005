@@ -104,5 +104,7 @@
 	<extension name='democustomerticketingc4cb2bintegration' />
 	<extension name='yb2bacceleratorstorefront' />	
 	<extension name='mockcarrieraddon' />
+	  
+	<extension name='azurecloudhotfolder' />
   </extensions>
 </hybrisconfig>
