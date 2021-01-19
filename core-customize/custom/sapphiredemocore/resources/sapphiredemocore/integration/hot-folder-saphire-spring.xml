@@ -20,7 +20,7 @@
 	<!-- General setup -->
 	<!-- Already mentioned in core hot folder service -->
 	<bean id="baseDirectorySaphhire" class="java.lang.String">
-		<constructor-arg value="#{configurationService.configuration.getProperty('azure.hotfolder.storage.container.hotfolder')}" />
+		<constructor-arg value="#{baseDirectory}/${tenantId}/powertools" />
 	</bean>
 	
 	<!-- #######Impex import process######## -->
