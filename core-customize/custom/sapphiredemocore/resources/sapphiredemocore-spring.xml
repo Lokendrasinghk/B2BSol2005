@@ -21,7 +21,7 @@
            
            
            <!-- Spring Integration -->
-	<import resource="classpath:/Sapphiredemocore/integration/hot-folder-saphire-spring.xml"/>
+	<import resource="classpath:/sapphiredemocore/integration/hot-folder-saphire-spring.xml"/>
 	
 
 	<!--
