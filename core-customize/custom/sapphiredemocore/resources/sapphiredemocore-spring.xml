@@ -18,6 +18,11 @@
            http://www.springframework.org/schema/beans/spring-beans.xsd
            http://www.springframework.org/schema/aop
            http://www.springframework.org/schema/aop/spring-aop.xsd">
+           
+           
+           <!-- Spring Integration -->
+	<import resource="classpath:/Sapphiredemocore/integration/hot-folder-saphire-spring.xml"/>
+	
 
 	<!--
 	The hybris platform provides one single Spring application context for beans located at the jalo layer.
