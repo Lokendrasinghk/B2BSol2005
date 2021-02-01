@@ -46,7 +46,7 @@
     <extension name='commerceservicesbackoffice' />
     <extension name='warehousing' />
     <extension name='b2bapprovalprocess' />
-    <!--1905 <extension name='sapcoreaddon' />  -->
+    <extension name='sapcoreaddon' />
     <extension name='sapcorebol' />
     <extension name='sapcoreconfigurationbackoffice' />
     <extension name='sapmodel' />
@@ -68,7 +68,7 @@
     <extension name='sapproductavailabilitybackoffice' />
     <extension name='sapcreditcheck' />
     <extension name='sapcreditcheckbackoffice' />  -->
-    <!-- <extension name='sapcoretest' /> --> 
+    <extension name='sapcoretest' />
 	
 	<!--  below are settings for OCC -->
 	<extension name='ycommercewebservices' />
